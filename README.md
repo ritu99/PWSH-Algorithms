@@ -14,6 +14,11 @@ A collection of useful algorithms to know implemented in Java. Each algorithm ha
 ### Dynamic Programming
 * 0/1 Knapsack
 * Levenshtein
+* Unintuitive Coins
+
+### Strings
+* Palindromes
+* Pangrams
 
 ## To Add (in no particular order)
 ### Math
@@ -31,8 +36,6 @@ A collection of useful algorithms to know implemented in Java. Each algorithm ha
 ### Dynamic Programming
 * Kadane's Algorithm (largest consecutive sum)
 * Binary Search
-* Un-Intuitive Coins
-* Knapsack
 * USACO
 
 ### Misc. 
