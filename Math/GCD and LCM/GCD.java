@@ -11,6 +11,12 @@ public class GCD {
         System.out.println(gcd(72, 54));
     }
     
+    /**
+    * Greatest Common Divisor of two numbers
+    * @param a first number
+    * @param b second number
+    * return gcd of a and b
+    */
     public static int gcd(int a, int b)
     {
         int x = Math.min(a, b);
@@ -26,6 +32,12 @@ public class GCD {
         return y;
     }
     
+    /**
+    * Least Common Multiple of two numbers
+    * @param a first number
+    * @param b second number
+    * @return lcm of a and b
+    */
     public static int lcm(int a, int b)
     {
         return a / gcd(a, b) * b;
