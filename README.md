@@ -2,18 +2,25 @@
 
 A collection of useful algorithms to know implemented in Java. Each algorithm has its own folder with a .java file containing the Java implementation and a .md file briefly describing how the algorithm works and some of its uses.
 
+## Currently Have
+### Math
+* Combinations
+* GCD/LCM
+* Pascal's Triangle
+* Permutations
+* Primality Test
+* Sieve of Eratosthenes
+
+### Dynamic Programming
+* 0/1 Knapsack
+* Levenshtein
+
 ## To Add (in no particular order)
 ### Math
-* Primality Test
 * Co-Prime Sets
-* LCM
-* GCD
 * Factorization
-* Combinations (of Strings and arrays)
-* Permuatations (of Strings and arrays)
+* Combinations (of arrays)
 * Number of Combinations and Permutations
-* Pascals triangle
-* Sieve of Eratosthenes
 
 ### Graph Theory
 * Depth First Search (Grid and Nodes)
@@ -22,7 +29,6 @@ A collection of useful algorithms to know implemented in Java. Each algorithm ha
 * Flood-Fill
 
 ### Dynamic Programming
-* Levenshtein
 * Kadane's Algorithm (largest consecutive sum)
 * Binary Search
 * Un-Intuitive Coins
