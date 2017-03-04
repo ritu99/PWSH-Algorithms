@@ -18,8 +18,9 @@ public class PrimeTest {
         if (x == 2) return true;
         if (x % 2 == 0 || x % 3 == 0) return false;
         
-        for (int i=3; i*i <= x; i++)
-            if (x % i == 0) return false;
+        int temp = (int) Math.sqrt(n);
+        for (int i=5; i <= temp; i += 6)
+            if (x % i == 0 || x % (i + 2) == 0) return false;
         
         return true;
     }
